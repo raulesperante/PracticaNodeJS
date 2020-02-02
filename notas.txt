@@ -1,0 +1,63 @@
+Para ejecutar un programa de consola en node
+node miscript.js
+
+Para crear un proyecto en node
+
+node init
+Y completar los datos que va pidiendo
+Esto crea un package.json
+
+La opción --save es para que se instale en mi proyecto actual
+
+Express, un frame para trabajar con http, sistemas de rutas
+Instalar express
+
+npm install express --save
+
+// Para recibir las peticiones en json
+npm install body-parser --save 
+
+// Subir archivos a mi backend
+npm install connect-multiparty --save 
+
+// Mongoose es un orm para trabajar con mongodb
+npm install mongoose --save
+
+// nodemon, escucha los cambios en los fichero para recargar el servidor
+// Es una dependencia solo de desarrollo
+npm install nodemon --save-dev
+
+// npm start lanza al nodemon con index.js
+// Para eso se lo configura en el package.json así:
+// La parte de "start"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+
+
+  ==============================
+  Pasos:
+  1) Crear base de datos en mongo
+  2) Crear conexion
+  3) Crear un módulo, en este caso app para express y body parser
+  Para el servidor express
+  4) Crear una ruta
+
+  ==============================
+
+Postman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
