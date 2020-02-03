@@ -42,11 +42,14 @@ npm install nodemon --save-dev
   2) Crear conexion
   3) Crear un módulo, en este caso app para express y body parser
   Para el servidor express
-  4) Crear una ruta
+  4) Crear el controllador
+  5) Crear la ruta que vincule al controllador
+  6) Actualizar app.js, cargar su archivo de rutas
 
   ==============================
 
-Postman
+Se recomienda crear un fichero de rutas por cada uno de los controladores
+
 
 
 
