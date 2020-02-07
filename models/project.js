@@ -8,7 +8,8 @@ var ProjectSchema = Schema({
     descripcion: String,
     categoria: String,
     year: Number,
-    langs: [String]
+    langs: String,
+    image: String
 });
 
 // Parámetros tipo de entidad a guardar en db y Esquema

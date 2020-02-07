@@ -15,7 +15,22 @@ var project_routes = require('./routes/project');
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
+
 // CORS
+// Configurar cabeceras y cors
+// Este middleware siempre se va a ejecutar antes de cada petición
+app.use((req, res, next) => {
+    // Ya en producción no irá '*', todo, sino que irán solo los 
+    // origenes permitidos
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
+    res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
+    // Luego de configurar las cabeceras, con el método next
+    // se continúa con la acción que fue requerida
+    next();
+});
+
 
 // RUTAS
 // /api, es para sobreescribir la url, para el middleware

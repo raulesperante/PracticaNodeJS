@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5e362d03ae2b9bb43e2ba89e"},"name":"Blog","descripcion":"Blog personal","category":"Informática","langs":["PHP","MySQL","CSS"],"year":{"$numberInt":"2020"}}
+{"_id":{"$oid":"5e3b62d57abd9e0970927c4c"},"name":"Juan","year":{"$numberInt":"1997"},"langs":"PHP","image":null,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5e3b634316ce2d01089fbd4a"},"name":"Raúl","year":{"$numberInt":"2020"},"langs":"NodeJs","image":null,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5e3b63c5ac23371570881729"},"name":"Raúl","year":{"$numberInt":"2020"},"langs":"NodeJs","image":null,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5e3b642fb84d45010cce3376"},"name":"Raúl","year":{"$numberInt":"2020"},"langs":"NodeJs","image":"vEnWZHlKzDe9D5cv-s_7DOtu.png","__v":{"$numberInt":"0"}}
